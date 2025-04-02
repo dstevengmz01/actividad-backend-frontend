@@ -33,7 +33,6 @@ function Reserva() {
           {user.map((index) => {
             return (
               <tr key={index.id}>
-               
                 <td>{index.fechaReserva}</td>
                 <td>{index.lugar}</td>
                 <td>{index.nombreReserva}</td>
